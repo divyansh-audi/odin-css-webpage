@@ -71,7 +71,28 @@ button{
     text-align: center;
 }
 .third-container{
+    background-color: #E5E7EB;
+
+}
+.quote-holder{
     flex:auto;
+    padding:50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:600px;
+    height:auto;
+    margin:auto;
+
+}
+.p1{
+    font-size:18px;
+    width:600px;
+}
+.p2{
+    font-size: 15px;
+    font-weight: bolder;
+    align-self:end;
 }
 
 .fourth-container{
