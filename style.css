@@ -1,22 +1,25 @@
-.body{
+body{
     display:flex;
     flex-direction: column;
     background-color: black;
+    min-height:100vh;
+    
 }
 .header{
     display: flex;
-    flex:auto;
+    flex:1;
     justify-content: center;
     align-items: center;
     background-color:rgb(5, 26, 48);
-    padding:20px;
+    padding:10px;
 }
 
 .first-container{
     display: flex;
     flex:auto;
-    padding:30px;
+    padding:10px;
     background-color:rgb(5, 26, 48);
+    padding-left:200px;
 }
 
 .first-half{
@@ -45,11 +48,12 @@ button{
     height:auto;
 }
 .second-container{
-    flex:auto;
+    flex:1;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding:20px;
+    background-color: white;
+    
 }
 .image-div{
     display:flex;
@@ -72,11 +76,13 @@ button{
 }
 .third-container{
     background-color: #E5E7EB;
+    flex:1;
 
 }
 .quote-holder{
-    flex:auto;
-    padding:50px;
+    flex:1;
+    padding-top:10px;
+    padding-bottom: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -94,14 +100,49 @@ button{
     font-weight: bolder;
     align-self:end;
 }
-
+.fourth-box{
+    display: flex;
+    justify-content:center;
+    background-color:white;
+    padding:20px;
+    flex:1;
+}
 .fourth-container{
+    flex:1;
+    display: flex;
+    background-color: #3882F6;
+    max-width:600px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+.box-left{
     flex:auto;
+    padding-left:40px;
+}
+.box-right{
+    flex:auto;
+}
+.bu{
+    background-color: #3882F6;
+    border:white solid 2px;
+}
+.p11{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.footer{
+    flex:1;
+    text-align: center;
+    padding:5px;
+    background-color:rgb(5, 26, 48);
+    color:white;
+    font-size:12px;
+   
 }
 
-.footer{
-    flex:auto;
-}
+
 ul{
     display:flex;
     flex:auto;
@@ -120,6 +161,7 @@ a{
 }
 
 img.logo{
-    height:50px;
-    width:50px;
+    height:70px;
+    width:auto;
+    padding-left:50px;
 }
