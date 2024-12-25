@@ -8,7 +8,7 @@
     flex:auto;
     justify-content: center;
     align-items: center;
-    background-color:rgb(3, 14, 26);
+    background-color:rgb(5, 26, 48);
     padding:20px;
 }
 
@@ -16,20 +16,34 @@
     display: flex;
     flex:auto;
     padding:30px;
+    background-color:rgb(5, 26, 48);
 }
 
 .first-half{
     display:flex;
     flex:auto;
     flex-direction: column;
+    color:white;
+    padding: 20px;
+    
 }
 .second-half{
     flex:auto;
+    padding:20px;
+}
+button{
+    background-color: rgb(43, 122, 241);
+    padding:5px 30px 5px 30px;
+    margin-top:10px;
+    color:white;
+    border-radius: 7px;
+    border: none;
 }
 
+
 .image-holder{
-    width:30px;
-    height:30px;
+    width:200px;
+    height:auto;
 }
 .second-container{
     flex:auto;
